@@ -1,0 +1,11 @@
+let bitcoin = 100000;
+let ethereum = 24000;
+let matic = 15;
+let bnb = 1000;
+
+let cartera = 25000;
+
+console.log("De Bitcoin puedo comprar: ", cartera / bitcoin);
+console.log("De Ethereum puedo comprar: ", cartera / ethereum);
+console.log("De Matic puedo comprar: ", cartera / matic);
+console.log("De Bnb puedo comprar: ", cartera / bnb);

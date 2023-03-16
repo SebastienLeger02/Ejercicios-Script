@@ -1,0 +1,19 @@
+Nom des extension :
+
+npm i prompt-sync
+let prompt = require('prompt-sync')();
+
+Numero aleatorio : Math.ramdom();
+Guadar un Int : Math.floor(parametro); o Math.ceil(parametro); o parseInt(Math.random());
+
+
+if (... < ... ) {
+    console.log("El numero es mas alto ");
+} else if (... > ...) {
+    console.log("El numero es mas abajo")
+}
+
+Seguridad:
+https://github.com/SunWeb3Sec/DeFiVulnLabs
+
+https://newsletter.blockthreat.io/p/blockthreat-week-9-2023

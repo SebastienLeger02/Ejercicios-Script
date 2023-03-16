@@ -1,0 +1,67 @@
+let mates = 4;
+
+if(mates < 5) {
+    console.log("Mates suspendido");
+} else if(mates < 7) {
+    console.log("Mates bien");
+} else if(mates < 9) {
+    console.log("Mates muy bien");
+} else {
+    console.log("Mates excelente");
+}
+
+let lengua = 8;
+if(lengua < 5) {
+    console.log("Lengua suspendido");
+} else if(lengua < 7) {
+    console.log("Lengua bien");
+} else if(lengua < 9) {
+    console.log("Lengua muy bien");
+} else {
+    console.log("Lengua excelente");
+}
+
+let programacion = 10;
+if(programacion < 5) {
+    console.log("Programación suspendido");
+} else if(programacion < 7) {
+    console.log("Programación bien");
+} else if(programacion < 9) {
+    console.log("Programación muy bien");
+} else {
+    console.log("Programación excelente");
+}
+
+let ingles = 9;
+if(ingles < 5) {
+    console.log("Inglés suspendido");
+} else if(ingles < 7) {
+    console.log("Inglés bien");
+} else if(ingles < 9) {
+    console.log("Inglés muy bien");
+} else {
+    console.log("Inglés excelente");
+}
+
+let naturales = 6;
+if(naturales < 5) {
+    console.log("Naturales suspendido");
+} else if(naturales < 7) {
+    console.log("Naturales bien");
+} else if(naturales < 9) {
+    console.log("Naturales muy bien");
+} else {
+    console.log("Naturales excelente");
+}
+
+let quimica = 5;
+if(quimica < 5) {
+    console.log("Quimica suspendido");
+} else if(quimica < 7) {
+    console.log("Quimica bien");
+} else if(quimica < 9) {
+    console.log("Quimica muy bien");
+} else {
+    console.log("Quimica excelente");
+}
+
