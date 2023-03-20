@@ -18,7 +18,7 @@ let primeroNumero = parseInt(prompt("Cual es tu primer numero?"));
 let segundoNumero = parseInt(prompt("Cual es tu segundo numero?"));
 let sumaNumero = primeroNumero + segundoNumero;
 
-if(sumaNumero%2 == 0 ) {
+if(sumaNumero % 2 == 0 ) {
     console.log( "La suma de los numeros ",primeroNumero, " y ", segundoNumero, " hacen ", sumaNumero, " y es par.");
 }else {
     console.log( "La suma de los numeros ",primeroNumero, " y ", segundoNumero, " hacen ", sumaNumero, " y es impar.");
@@ -31,7 +31,7 @@ let numero = parseInt(prompt("Cual es tu numero?"));
 let primo = true;
 
 for (i=2; i<numero; i++) {
-    if(numero% i === 0) {
+    if(numero % i === 0) {
         primo = false;
     }
 }
