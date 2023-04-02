@@ -1,4 +1,4 @@
-let prompt = require('prompt-sync')();
+let prompt = require("prompt-sync")();
 
 // Ejercicio 1
 
@@ -69,10 +69,4 @@ mayorOMenor(numero01,numero02);
 // Ejercicio 5
 /*
 Pedir al usario una letra
-
 */
-
-
-
-
-
