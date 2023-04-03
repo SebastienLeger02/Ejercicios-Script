@@ -1,3 +1,6 @@
+// const { deepStrictEqual } = require("assert");
+// const { parse } = require("path");
+
 let prompt = require("prompt-sync")();
 
 // Ejercicio 1
@@ -70,3 +73,83 @@ mayorOMenor(numero01,numero02);
 /*
 Pedir al usario una letra
 */
+/*
+let letra = true;
+while (letra) {
+  let letraPedido = prompt("Escribe una letra:");
+  var letraRGEX = /^[a-zA-Z]{1}$/;
+  var letraResult = letraRGEX.test(letraPedido);
+
+  if (letraResult) {
+    if (
+      letraPedido ==  "a" ||
+      letraPedido ==  "A" ||
+      letraPedido ==  "e" ||
+      letraPedido ==  "E" ||
+      letraPedido ==  "i" ||
+      letraPedido ==  "I" ||
+      letraPedido ==  "o" ||
+      letraPedido ==  "O" ||
+      letraPedido ==  "u" ||
+      letraPedido ==  "U"
+    ) {
+      console.log("La letra", letraPedido, "es un vocal.");
+    } else {
+      console.log("La letra", letraPedido, "no es un vocal.");
+    }
+    letra = false;
+  }
+}
+*/
+// Ejercicio 6
+/*
+Pedir al usario un numero entre 1 y 7 y
+muestra a qué dia de la semana corresponde
+*/
+/*
+let numero = true;
+while (numero) {
+  let diaSemana = parseInt(prompt("Escribe un numero entre 1 y 7:"));
+
+  if (diaSemana > 0 && diaSemana <= 7) {
+    numero = false;
+    if (diaSemana == 1) {
+      console.log("El dia 1 de la semana es Lunes!");
+    } else if (diaSemana == 2) {
+      console.log("El dia 2 de la semana es Martes!");
+    } else if (diaSemana == 3) {
+      console.log("El dia 3 de la semana es Miercoles!");
+    } else if (diaSemana == 4) {
+      console.log("El dia 4 de la semana es Jueves!");
+    } else if (diaSemana == 5) {
+      console.log("El dia 5 de la semana es Viernes!");
+    } else if (diaSemana == 6) {
+      console.log("El dia 6 de la semana es Sabado!");
+    } else {
+      console.log("El dia 7 de la semana es Domingo!");
+    }
+  }
+}
+*/
+
+let diaArray = [
+  "Lunes",
+  "Martes",
+  "Miercoles",
+  "Jueves",
+  "Viernes",
+  "Sabado",
+  "Domingo",
+];
+let numero = true;
+while (numero) {
+  let diaSemana = parseInt(prompt("Escribe un numero entre 1 y 7:"));
+
+  if (diaSemana > 0 && diaSemana <= 7) {
+    diaSemana--;
+    dia = diaArray[diaSemana];
+    console.log(dia);
+
+    numero = false;
+  }
+}
