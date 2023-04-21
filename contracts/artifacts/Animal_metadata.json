@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sonido",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tipo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Herencia.sol": "Animal"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Herencia.sol": {
+			"keccak256": "0x2b93ad1f5190b3010a07411321610c281c01655628561095f46ee39ad1d9f301",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c5992398f77378d8b94b7323d097b334b120f3df1216b04363151ee263965caf",
+				"dweb:/ipfs/QmY6peg4n1UzY6Qe1RNZx6JMm1ovgmSJ8kDogWjLCQcUP3"
+			]
+		}
+	},
+	"version": 1
+}

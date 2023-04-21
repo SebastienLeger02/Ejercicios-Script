@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getEstado",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setEstado",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Enums.sol": "Ejercicio"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Enums.sol": {
+			"keccak256": "0xc27804cd853eedfda8b6aecfad1b8f0713b5b348ce3678d27bc73b57c741f847",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a2c59c2e2f51c26b5934daa40fbbfe645e1d3ee359c799cbf72655b3372d46f7",
+				"dweb:/ipfs/QmQBwqgTWvncRYsBrfN1DTv6xNbLqR8CTkrAupV4ehTB4u"
+			]
+		}
+	},
+	"version": 1
+}

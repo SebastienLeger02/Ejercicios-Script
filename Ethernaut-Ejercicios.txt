@@ -1,0 +1,15 @@
+Rthernaut
+
+0xBA97454449c10a0F04297022646E7750b8954EE8
+
+ethernaut.owner()ou await ethernaut.owner()si vous utilisez Chrome v62.
+
+c	 	 Vous pouvez voir qui est le propriétaire du contrat ethernaut.
+
+---
+REMARQUE : Développez la promesse pour voir la valeur réelle, même si elle indique 
+"en attente". Si vous utilisez Chrome v62, vous pouvez utiliser await getBalance(player)
+pour une expérience de console plus propre.
+---
+Interagissez avec le contrat pour terminer le niveau
+Regardez dans la méthode d'information du niveau contract.info()ou await contract.info()
