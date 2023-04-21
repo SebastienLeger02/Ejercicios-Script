@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getPersona",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "edad",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "direccion",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "telefono",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Ejercicio2.Persona",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "edad",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "direccion",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "telefono",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Ejercicio2.Persona",
+						"name": "_persona",
+						"type": "tuple"
+					}
+				],
+				"name": "setPersona",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_edad",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_direccion",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_telefono",
+						"type": "uint256"
+					}
+				],
+				"name": "setPersona2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Structs.sol": "Ejercicio2"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Structs.sol": {
+			"keccak256": "0xf3c905fba4a4e33c5e7a02ad76521484ff2eb553b27c5f47e1a73c80a6550302",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://27cfc07af18d570dd83ff269606bc3217b5ee27657db804cd669a130a74b4cb6",
+				"dweb:/ipfs/Qmc4ULvp7hwAp2yyegVYVdkKE7WC4ugmpeT4GuyckRugax"
+			]
+		}
+	},
+	"version": 1
+}

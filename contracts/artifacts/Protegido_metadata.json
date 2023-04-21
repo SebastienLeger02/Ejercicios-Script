@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "accedido",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "funcionPublica1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Protegido.sol": "Protegido"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Protegido.sol": {
+			"keccak256": "0xb61094d5a080d49dfee9a19928170f485ce016342a0e4dde424f84509d4f115a",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://66cea7dc5ef87fe6e2c452e439e25e74521e87ede8cc5d92f55804e372e71755",
+				"dweb:/ipfs/QmbbExRmvn8jydzWU6aShF41chN79m47zxxktmuvVdnpuX"
+			]
+		}
+	},
+	"version": 1
+}

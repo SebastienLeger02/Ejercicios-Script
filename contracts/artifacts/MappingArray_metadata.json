@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "cuantosMinutos",
+						"type": "uint256"
+					}
+				],
+				"name": "registrarDia",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MappingArrays.sol": "MappingArray"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MappingArrays.sol": {
+			"keccak256": "0xaf7147a66a1a0cc4357672dd56f553f7c2cd83fdcf055c7611ad1aac67c5d728",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://51d582978b038d8695092240863ea7ea514492d95e9901b2d4e07d85a4d96f8b",
+				"dweb:/ipfs/QmdNZisFUj6jDnDA3LJgS2r5Jvct5EXrpRHVHjpX8gPgkk"
+			]
+		}
+	},
+	"version": 1
+}

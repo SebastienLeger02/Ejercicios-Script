@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "dinero",
+						"type": "uint256"
+					}
+				],
+				"name": "NoHayDinero",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "NoPropietario",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "dinero",
+						"type": "uint256"
+					}
+				],
+				"name": "HayDinero",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "dinero",
+						"type": "uint256"
+					}
+				],
+				"name": "daError",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Orderbook.sol": "Orderbook"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Orderbook.sol": {
+			"keccak256": "0x571d8cf62b307a610b1732ff039a2b87ba9ca728471a6eda0fad22d2291473ce",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bc2668aa824d55e154d3a9334f94244529e9a084f306c303ee7680191d0e692f",
+				"dweb:/ipfs/QmNv8FBjkiBP6eLnH2sFs99EsEgUUEBH5ENCrbRrkoVDD2"
+			]
+		}
+	},
+	"version": 1
+}

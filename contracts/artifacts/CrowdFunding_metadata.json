@@ -1,0 +1,137 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "identificador",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cantidad",
+						"type": "uint256"
+					}
+				],
+				"name": "addFondos",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "cantidadObjetivo",
+						"type": "uint256"
+					}
+				],
+				"name": "addProyecto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "identificador",
+						"type": "uint256"
+					}
+				],
+				"name": "cancelaProyecto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "contador",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "proyectos",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "creador",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cantidadObjetivo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cantidadRecaudada",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum CrowdFunding.Estado",
+						"name": "estado",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CrowdFunding.sol": "CrowdFunding"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CrowdFunding.sol": {
+			"keccak256": "0x5303f9d6ae21ac60b7abb867c506b1322228d53441f44b579afa758b45717653",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d9718829810c002ef1aa89c38c39a51956e90e057b3f2f5883d292cce92378cb",
+				"dweb:/ipfs/QmeiBfUvEU1QwuL9AA3bMqPdBouTAY8xF7GTj1v6Akg9mu"
+			]
+		}
+	},
+	"version": 1
+}
