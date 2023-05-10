@@ -1,0 +1,23 @@
+import "hardhat/console.log"
+
+Que es Creat2 y Metamorphic contracts
+
+
+https://emn178.github.io/online-tools/keccak_256.html
+
+transfer(address,unit256)
+
+https://www.evm.codes/?fork=merge
+cada 2 numeros son un bytecode
+
+Coje los 8 numero 4 bytes
+
+Call write/read
+Static Call read  (usado por lo return)
+Delegate Call 
+
+signature : https://www.4byte.directory/
+
+ (bool ok, bytes memory data) = llamado.call(abi.encodeWithSignature("increment()"));
+
+requiere(ok , "Hay un fallo!");
