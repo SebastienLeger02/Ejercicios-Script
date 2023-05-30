@@ -1,0 +1,27 @@
+Comment installer Foundry
+
+1.
+Télecharger Git BASH
+https://gitforwindows.org/
+2.
+- https://github.com/foundry-rs/foundry/tags
+
+nightly -> download -> foundry_nightly_win32_amd64.zip
+
+Dans "Documents" créer un dossier "Foundry" et mettre 
+les 4 fichiers extrait du télechargement dedans.
+
+3.
+Aller dans "Ce PC" clique droit, puis Propriété.
+A droite "Configurations avancé du systeme".
+-> Variable d'environnement -> Path (modifier)
+ Récuperer le link du dossier créé "Foundry"
+Et le coller dans les variables 
+Valider toutes les pages
+
+4. 
+Vérifier
+Aller dans le Terminal -> mettre "forge" et voir si Windows reconait
+la commande
+
+
