@@ -13,3 +13,5 @@ pour une expérience de console plus propre.
 ---
 Interagissez avec le contrat pour terminer le niveau
 Regardez dans la méthode d'information du niveau contract.info()ou await contract.info()
+
+Petit Test par ici
